@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background-color: #f1f1fc;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Open Sans", sans-serif; }
+
+.container {
+  height: 500px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px 20px;
+  border-radius: 5px;
+  box-shadow: 0 0px 20px rgba(0, 0, 0, 0.1); }
+  @media screen and (min-width: 500px) {
+    .container {
+      height: 500px;
+      background-color: #fff;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      padding: 30px 80px;
+      border-radius: 5px;
+      box-shadow: 0 0px 20px rgba(0, 0, 0, 0.1); } }
+  .container .container__text {
+    font-weight: bold;
+    text-align: center;
+    width: 190px; }
+  .container .container__button {
+    font-weight: bold;
+    width: 250px;
+    padding: 13px 40px;
+    border: none;
+    border-radius: 7px;
+    color: #fff; }
+    .container .container__button:hover {
+      cursor: pointer; }
+  .container .btn__google {
+    background-color: #d14b3e; }
+  .container .btn__facebook {
+    background-color: #3d5a96; }
+  .container .btn__twitter {
+    background-color: #58acea; }
+  .container .container__checkbox {
+    display: flex;
+    width: 250px;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 13px; }
+    .container .container__checkbox input {
+      margin-right: 8px; }
